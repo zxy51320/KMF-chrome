@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "考满分去遮罩",
+  "version": "1.0",
+  "description": "考满分去遮罩",
+  "permissions": ["tabs", "https://toefl.kmf.com/*/ets/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://toefl.kmf.com/*/ets/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
