@@ -3,10 +3,10 @@
   "name": "考满分去遮罩",
   "version": "1.0",
   "description": "考满分去遮罩",
-  "permissions": ["tabs", "https://toefl.kmf.com/*/ets/*"],
+  "permissions": ["tabs"],
   "content_scripts": [
     {
-      "matches": ["https://toefl.kmf.com/*/ets/*"],
+      "matches": ["https://toefl.kmf.com/*"],
       "js": ["content.js"]
     }
   ]
